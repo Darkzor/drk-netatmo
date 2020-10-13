@@ -1,5 +1,6 @@
 
 A node.js module to interface with the [netatmo api](http://dev.netatmo.com/) API.
+
 This module is a complete rewrite of https://github.com/floetenbaer/netatmo/
 
 Documentation is an ongoing process. To be updated ASAP.
