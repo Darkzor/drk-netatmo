@@ -12,7 +12,7 @@ Documentation is an ongoing process. To be updated ASAP.
 ## Install
 
 ```sh
-git clone drk-netatmo
+git clone https://github.com/Darkzor/drk-netatmo.git
 ```
 
 ## Example #1
