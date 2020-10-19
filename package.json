@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/karbassi/netatmo.git"
+    "url": "https://github.com/Darkzor/drk-netatmo.git"
   },
   "bugs": {
-    "url": "https://github.com/karbassi/netatmo/issues"
+    "url": "https://github.com/Darkzor/drk-netatmo/issues"
   },
-  "homepage": "https://github.com/karbassi/netatmo",
+  "homepage": "https://github.com/Darkzor/drk-netatmo",
   "keywords": [
     "netatmo",
     "netatmo api"
@@ -26,5 +26,6 @@
   "dependencies": {
     "moment": "^2.22.2",
     "request": "^2.88.2"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
