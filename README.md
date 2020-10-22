@@ -16,6 +16,12 @@ Documentation is an ongoing process. To be updated ASAP.
 git clone https://github.com/Darkzor/drk-netatmo.git
 ```
 
+or
+
+```
+npm install @darkzor/drk-netatmo@0.1.0
+```
+
 ## Example #1
 
 ```javascript

@@ -1020,15 +1020,15 @@ netatmo.prototype.setThermMode = function (options, callback) {
  * @param callback
  * @returns {*}
  */
-netatmo.prototype.getHealthyHomeCoachData = function (options, callback) {
+netatmo.prototype.getHomeCoachsData = function (options, callback) {
   // Wait until authenticated.
   if (!access_token) {
     return this.on('authenticated', function () {
-      this.getHealthyHomeCoachData(options, callback);
+      this.getHomeCoachsData(options, callback);
     });
   }
 
-  return this.simpleGetRequest("getHealthyHomeCoachData", "/api/gethomecoachsdata", options, [], callback, "get-healthhomecoachesdata");
+  return this.simpleGetRequest("getHomeCoachsData", "/api/gethomecoachsdata", options, [], callback, "get-homecoachesdata");
 };
 
 netatmo.prototype.makeAuthenticatedGetRequest = function (url, qs, callback) {
