@@ -1,6 +1,6 @@
 {
   "name": "@darkzor/drk-netatmo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A complete node.js module to hook into the netatmo API.",
   "main": "netatmo.js",
   "scripts": {
