@@ -19,7 +19,7 @@ git clone https://github.com/Darkzor/drk-netatmo.git
 or
 
 ```
-npm install @darkzor/drk-netatmo@0.1.0
+npm install @darkzor/drk-netatmo@0.1.1
 ```
 
 ## Example #1
